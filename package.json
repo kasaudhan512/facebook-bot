@@ -1,5 +1,6 @@
 {
   "name": "facebook-bot",
+  "port": 5000,
   "version": "1.0.0",
   "description": "this is an automate messanger bot app to take user deails as an input",
   "main": "server.js",
