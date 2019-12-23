@@ -42,4 +42,7 @@ app.post('/webhook', (req, res) => {
   
   });
 
-app.listen(5000, () => console.log('server is listening on port 5000'));
+  app.listen(process.env.PORT || 3000, function(){
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+  });
+  
