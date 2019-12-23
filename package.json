@@ -2,7 +2,7 @@
   "name": "facebook-bot",
   "version": "1.0.0",
   "description": "this is an automate messanger bot app to take user deails as an input",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
